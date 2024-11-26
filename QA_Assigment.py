@@ -18,8 +18,14 @@ data = [
     {
         "lan": "Russian",
         "article": "ajksndkas"
+    },
+    {
+        "lan": "British",
+        "article": "ajksndkas"
     }
 ]
+
+
 
 def get_num_of_articles(languages):
     filtered_data = [item for item in data if item["lan"] in languages]
